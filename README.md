@@ -26,16 +26,16 @@ To use this module for the ACME DNS challenge, [configure the ACME issuer in you
 
 ```json
 {
-	"module": "acme",
-	"challenges": {
-		"dns": {
-			"provider": {
-				"name": "exoscale",
-				"api_key": "{env.EXOSCALE_API_KEY}",
-                "api_secret": "{env.EXOSCALE_API_SECRET}"
-			}
-		}
-	}
+  "module": "acme",
+  "challenges": {
+    "dns": {
+      "provider": {
+        "name": "exoscale",
+        "api_key": "{env.EXOSCALE_API_KEY}",
+        "api_secret": "{env.EXOSCALE_API_SECRET}"
+      }
+    }
+  }
 }
 ```
 
